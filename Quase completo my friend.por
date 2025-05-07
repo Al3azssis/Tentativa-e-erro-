@@ -1,6 +1,7 @@
 programa {
   funcao inicio() {
-    inteiro num1,num2,resultado,operacao
+    inteiro num1,num2,resultado
+    caracter operacao
     escreva("Digite o primeiro número: ")
     leia(num1)
     escreva("Escolha uma operação 1.Soma 2.Vezes 3.Dividir 4.Subtrair: ")
