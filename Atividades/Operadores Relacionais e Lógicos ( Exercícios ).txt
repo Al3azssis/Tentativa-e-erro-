@@ -1,0 +1,121 @@
+Exercício 1 – Variáveis
+Enunciado:
+Crie um programa que declare três variáveis: uma para o nome do usuário (cadeia), uma para a idade (inteiro) e outra para a altura (real). Depois, mostre esses dados na tela.
+
+programa {
+  funcao inicio() {cadeia nome
+   inteiro idade
+   real altura
+  escreva("\n","Preencha com seus dados")
+  escreva("\n","Nome: ")
+  leia(nome)
+  escreva("\n","Idade: ")
+  leia(idade)
+  escreva("\n","Altura: ")
+  leia(altura)
+  escreva("Confirme seus Dados: ","\n")
+  escreva("\n","Nome: ")
+  escreva(nome)
+  escreva("\n","Idade: ")
+  escreva(idade," Anos")
+  escreva("\n","Altura: ")
+  escreva(altura, " de Altura")
+  escreva("\n","Cadastro Finalizado, tenha um bom dia")
+
+  }
+}fim
+
+✅ Exercício 2 – Tipos de Dados
+Pergunta:
+Classifique os seguintes valores com o tipo de dado correto:
+
+a) "Boa noite"  ==> Cadeia
+b) false        ==> Lógico
+c) 27           ==> Inteiro
+d) 'X'          ==> Caracter
+e) 3.1415       ==> Real
+
+✅ Exercício 3 – Operadores
+Enunciado:
+Dado o seguinte trecho de código:
+
+visuAlg
+inteiro a = 10
+inteiro b = 3
+
+escreva(a + b) ==> 13
+escreva(a % b) ==> 1
+escreva(a > b) ==> Verdadeiro
+Pergunta:
+
+Quais serão os valores exibidos na tela?
+
+O que significa o operador %? ==> Significa resto. Usado para exibir qual é o resto de uma divisão, útil para descobrir se um número é par ou ímpar.
+
+✅ Exercício 4 – Condicionais
+Enunciado:
+Escreva um programa que peça ao usuário um número inteiro e diga se ele é positivo, negativo ou zero.
+
+
+
+programa {
+  funcao inicio() { inteiro num1
+  escreva("Usuário, escolha um número e direi se ele é Positivo ou Negativo: ")
+  leia(num1)
+  se(num1>0){escreva("Esse número é Positivo com toda certeza.")}
+  senao se(num1<0){escreva("Esse número é negativo com toda certeza.")}
+  senao se(num1 == 0)escreva("Boa Tentativa! Esse número é zero com toda certeza")
+  
+  }
+}fim
+
+✅ Exercício 5 – Repetição com “enquanto”
+Enunciado:
+Faça um programa que mostre os números de 1 até 10 utilizando o laço enquanto.
+
+programa {
+  funcao inicio(){inteiro contador = 10
+  inteiro num1
+  escreva("Digite um número: ")
+  leia(num1)
+  enquanto(num1<=contador){escreva("\n"+num1)
+  num1++}}
+}
+fim
+
+✅ Exercício 6 – Repetição com “para”
+Enunciado:
+Escreva um programa que mostre a tabuada do 7 (de 7x1 até 7x10) usando o laço para.
+
+programa {
+  funcao inicio() {inteiro num1
+  inteiro resultado
+  inteiro conta
+  escreva("Qual tabuada você quer ver hoje? ")
+  leia(num1)
+  para(conta = 1; conta<=10; conta++){resultado = num1 * conta
+  escreva( "\n" +num1, " X " +conta, " = " +resultado)}}
+}fim
+
+
+✅ Exercício 7 – Entrada e Saída
+Enunciado:
+Faça um programa que:
+
+Leia o nome e a idade do usuário.
+
+Mostre a seguinte mensagem: "Olá, [nome]! Você tem [idade] anos."
+
+programa {
+  funcao inicio() {cadeia nome
+  inteiro idade
+  escreva("Informe seu nome: ", "\n")
+  leia(nome)
+  escreva("Informe sua idade: ","\n")
+  leia(idade)
+  escreva("\n", "Olá ", nome, "!. ", "Você tem ", idade, " Anos." )}
+}fim
+
+✅ Exercício 8 – Comentários
+Enunciado:
+Escreva um código que calcula a média de duas notas e inclua comentários explicando cada linha.
